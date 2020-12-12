@@ -1,0 +1,55 @@
+{
+    "name": "TaskBoard",
+    "id": "taskboard",
+    "packaging_format": 1,
+    "description": {
+        "en": "Kanban-inspired app for keeping track of things that need to get done.",
+        "fr": "Application inspirée de Kanban pour garder une trace des choses à faire."
+    },
+    "version": "1.0.2~ynh1",
+    "url": "http://taskboard.matthewross.me/",
+    "license": "MIT",
+    "maintainer": {
+        "name": "eric_G",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.0.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.0-fpm"
+    ],
+    "arguments": {
+        "install": [{
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain name for taskboard",
+                    "fr": "Choisissez un nom de domaine pour taskboard"
+                },
+                "example": "example.com"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "ask": {
+                    "en": "Choose a path for taskboard",
+                    "fr": "Choisissez un chemin pour taskboard"
+                },
+                "example": "/taskboard",
+                "default": "/taskboard"
+            },        
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "ask": {
+                    "en": "Is it a public site?",
+                    "fr": "Est-ce un site public ?"
+                },
+                "default": true
+            }
+        ]
+    }
+}
