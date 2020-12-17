@@ -85,7 +85,7 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=3
 
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config --package="$extra_php_dependencies"
-phpversion=$(ynh_app_setting_get --app="$app" --key=phpversion)
+phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
 # GENERIC FINALIZATION
@@ -95,7 +95,14 @@ phpversion=$(ynh_app_setting_get --app="$app" --key=phpversion)
 
 # Set permissions to app files
 chown -R $app: $final_path
-chmod -R 777 $final_path/api
+chmod -R 755 $final_path/api
+
+#=================================================
+# INTEGRATE SERVICE IN YUNOHOST
+#=================================================
+ynh_script_progression --message="Integrating service in YunoHost..." --time --weight=1
+
+yunohost service add $app --description "A short description of the app" --log "/var/log/$app/$app.log"
 
 #=================================================
 # SETUP SSOWAT
