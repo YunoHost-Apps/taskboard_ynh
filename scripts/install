@@ -100,9 +100,9 @@ chmod -R 755 $final_path/api
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
 #=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --time --weight=1
+ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
 
-yunohost service add $app --description "A short description of the app" --log "/var/log/$app/$app.log"
+yunohost service add $app --description="Kanban for keeping track of things" --log="/var/log/$app/$app.log"
 
 #=================================================
 # SETUP SSOWAT
