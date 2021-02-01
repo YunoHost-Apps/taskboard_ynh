@@ -95,7 +95,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 # Set permissions to app files
 chown -R $app: $final_path
-chmod -R 755 $final_path/api
+chmod -R 777 $final_path/api
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
