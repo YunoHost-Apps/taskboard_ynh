@@ -26,7 +26,7 @@ What TaskBoard does is make it easy to start keeping track of anything you need 
 ## Documentation
 
  * Official documentation: https://taskboard.matthewross.me/docs/quick-start
- * YunoHost documentation: https://yunohost.org/#/app_taskboard
+ * YunoHost documentation: https://yunohost.org/en/app_taskboard
 
 ## YunoHost specific features
 

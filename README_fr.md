@@ -26,7 +26,7 @@ TaskBoard permet de commencer facilement à suivre tout ce que vous devez faire.
 ## Documentation
 
  * Documentation officielle : https://taskboard.matthewross.me/docs/quick-start
- * Documentation YunoHost :  https://yunohost.org/#/app_taskboard_fr
+ * Documentation YunoHost :  https://yunohost.org/fr/app_taskboard
 
 ## Caractéristiques spécifiques YunoHost
 
