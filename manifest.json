@@ -6,7 +6,7 @@
         "en": "Kanban-inspired app for keeping track of things that need to get done.",
         "fr": "Application inspirée de Kanban pour garder une trace des choses à faire."
     },
-    "version": "1.0.2~ynh1",
+    "version": "1.0.2~ynh2",
     "url": "http://taskboard.matthewross.me/",
     "license": "MIT",
     "maintainer": {
@@ -25,29 +25,17 @@
         "install": [{
                 "name": "domain",
                 "type": "domain",
-                "ask": {
-                    "en": "Choose a domain name for taskboard",
-                    "fr": "Choisissez un nom de domaine pour taskboard"
-                },
                 "example": "example.com"
             },
             {
                 "name": "path",
                 "type": "path",
-                "ask": {
-                    "en": "Choose a path for taskboard",
-                    "fr": "Choisissez un chemin pour taskboard"
-                },
                 "example": "/taskboard",
                 "default": "/taskboard"
             },        
             {
                 "name": "is_public",
                 "type": "boolean",
-                "ask": {
-                    "en": "Is it a public site?",
-                    "fr": "Est-ce un site public ?"
-                },
                 "default": true
             }
         ]
