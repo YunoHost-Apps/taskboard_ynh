@@ -17,6 +17,10 @@ Application inspirée de Kanban pour garder une trace des choses à faire.
 
 **Démo :** https://taskboard.matthewross.me/demo
 
+## Captures d'écran
+
+![](./doc/screenshots/screenshots.png)
+
 ## Documentations et ressources
 
 * Site officiel de l'app : http://taskboard.matthewross.me/

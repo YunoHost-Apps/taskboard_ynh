@@ -21,6 +21,10 @@ Kanban-inspired app for keeping track of things that need to get done.
 
 **Demo:** https://taskboard.matthewross.me/demo
 
+## Screenshots
+
+![](./doc/screenshots/screenshots.png)
+
 ## Documentation and resources
 
 * Official app website: http://taskboard.matthewross.me/
