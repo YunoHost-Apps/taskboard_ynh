@@ -91,6 +91,17 @@ ynh_add_fpm_config --package="$extra_php_dependencies"
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding a configuration file..." --time --weight=1
+
+dir="__DIR__"
+ynh_add_config --template="../conf/Mailer.php" --destination="$final_path/api/helpers/Mailer.php"
+
+chmod 400 "$final_path/api/helpers/Mailer.php"
+chown $app:$app "$final_path/api/helpers/Mailer.php"
+
+#=================================================
 # INTEGRATE SERVICE IN YUNOHOST
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
