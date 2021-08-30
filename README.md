@@ -15,7 +15,8 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Kanban-inspired app for keeping track of things that need to get done.
+A Kanban-inspired app for keeping track of things that need to get done.
+The goal of TaskBoard is to provide a simple and clean interface to a functional and minimal application for keeping track of tasks. It's not trying to be the next Trello or LeanKit.
 
 **Shipped version:** 1.0.2~ynh2
 
