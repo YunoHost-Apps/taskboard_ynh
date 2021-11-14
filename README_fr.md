@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Application inspirée de Kanban pour garder une trace des choses à faire.
+Application inspirée de Kanban pour garder une trace des choses à faire
 
 **Version incluse :** 1.0.2~ynh2
 
@@ -24,8 +24,6 @@ Application inspirée de Kanban pour garder une trace des choses à faire.
 ## Documentations et ressources
 
 * Site officiel de l'app : http://taskboard.matthewross.me/
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/kiswa/TaskBoard
 * Documentation YunoHost pour cette app : https://yunohost.org/app_taskboard
 * Signaler un bug : https://github.com/YunoHost-Apps/taskboard_ynh/issues

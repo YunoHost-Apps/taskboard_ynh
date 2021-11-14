@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Kanban-inspired app for keeping track of things that need to get done.
+Kanban-inspired app for keeping track of things that need to get done
 
 **Shipped version:** 1.0.2~ynh2
 
@@ -28,8 +28,6 @@ Kanban-inspired app for keeping track of things that need to get done.
 ## Documentation and resources
 
 * Official app website: http://taskboard.matthewross.me/
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/kiswa/TaskBoard
 * YunoHost documentation for this app: https://yunohost.org/app_taskboard
 * Report a bug: https://github.com/YunoHost-Apps/taskboard_ynh/issues
