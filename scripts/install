@@ -110,13 +110,6 @@ chmod 400 "$final_path/api/helpers/Mailer.php"
 chown $app:$app "$final_path/api/helpers/Mailer.php"
 
 #=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
-
-yunohost service add $app --description="Kanban for keeping track of things" --log="/var/log/$app/$app.log"
-
-#=================================================
 # SETUP SSOWAT
 #=================================================
 ynh_script_progression --message="Configuring permissions..." --weight=1
