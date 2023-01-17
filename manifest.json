@@ -3,8 +3,8 @@
     "id": "taskboard",
     "packaging_format": 1,
     "description": {
-        "en": "Kanban-inspired app for keeping track of things that need to get done",
-        "fr": "Application inspirée de Kanban pour garder une trace des choses à faire"
+        "en": "Kanban for keeping track of things that need to get done",
+        "fr": "Kanban pour garder une trace des choses à faire"
     },
     "version": "1.0.2~ynh2",
     "url": "http://taskboard.matthewross.me/",
