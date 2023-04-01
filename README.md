@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # TaskBoard for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![Working status](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![Working status](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)
+
 [![Install TaskBoard with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=taskboard)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -18,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 A Kanban-inspired app for keeping track of things that need to get done.
 The goal of TaskBoard is to provide a simple and clean interface to a functional and minimal application for keeping track of tasks. It's not trying to be the next Trello or LeanKit.
 
-**Shipped version:** 1.0.2~ynh2
+**Shipped version:** 1.0.2~ynh3
 
 **Demo:** https://taskboard.matthewross.me/demo
 
