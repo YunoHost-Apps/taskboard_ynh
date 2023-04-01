@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # TaskBoard pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/taskboard.svg)](https://dash.yunohost.org/appci/app/taskboard) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/taskboard.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/taskboard.maintain.svg)
+
 [![Installer TaskBoard avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=taskboard)
 
 *[Read this readme in english.](./README.md)*
