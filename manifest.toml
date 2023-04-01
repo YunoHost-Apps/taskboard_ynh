@@ -1,0 +1,62 @@
+packaging_format = 2
+
+id = "taskboard"
+name = "TaskBoard"
+description.en = "Kanban for keeping track of things that need to get done"
+description.fr = "Kanban pour garder une trace des choses à faire"
+
+version = "1.0.2~ynh2"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "http://taskboard.matthewross.me/"
+demo = "https://taskboard.matthewross.me/demo"
+code = "https://github.com/kiswa/TaskBoard"
+
+[integration]
+yunohost = ">= 11.1.15"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = true
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/taskboard"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/kiswa/TaskBoard/releases/download/v1.0.2/TaskBoard_v1.0.2.zip"
+        sha256 = "7138c929b0e3b08f0a26d61b526e849ee894a02e9225802a6976997f380fe9ad"
+        in_subdir = false
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url = "/api"
+    api.allowed = "visitors"
+    api.auth_header = false
+    api.show_tile = false
+    api.protected = true
+
+
+
+    [resources.apt]
+    packages = "php8.0-sqlite3"

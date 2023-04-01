@@ -4,12 +4,6 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION=8.0
-
-php_dependencies="php$YNH_PHP_VERSION-sqlite3"
-
-pkg_dependencies="sqlite3 $php_dependencies"
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
