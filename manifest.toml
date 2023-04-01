@@ -5,7 +5,7 @@ name = "TaskBoard"
 description.en = "Kanban for keeping track of things that need to get done"
 description.fr = "Kanban pour garder une trace des choses à faire"
 
-version = "1.0.2~ynh2"
+version = "1.0.2~ynh3"
 
 maintainers = ["eric_G"]
 
