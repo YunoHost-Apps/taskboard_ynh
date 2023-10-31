@@ -35,6 +35,7 @@ The goal of TaskBoard is to provide a simple and clean interface to a functional
 
 * Site officiel de l’app : <http://taskboard.matthewross.me/>
 * Dépôt de code officiel de l’app : <https://github.com/kiswa/TaskBoard>
+* YunoHost Store: <https://apps.yunohost.org/app/taskboard>
 * Signaler un bug : <https://github.com/YunoHost-Apps/taskboard_ynh/issues>
 
 ## Informations pour les développeurs
