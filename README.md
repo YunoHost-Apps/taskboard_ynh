@@ -35,6 +35,7 @@ The goal of TaskBoard is to provide a simple and clean interface to a functional
 
 * Official app website: <http://taskboard.matthewross.me/>
 * Upstream app code repository: <https://github.com/kiswa/TaskBoard>
+* YunoHost Store: <https://apps.yunohost.org/app/taskboard>
 * Report a bug: <https://github.com/YunoHost-Apps/taskboard_ynh/issues>
 
 ## Developer info
