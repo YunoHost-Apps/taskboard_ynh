@@ -7,7 +7,7 @@ description.fr = "Kanban pour garder une trace des choses à faire"
 
 version = "1.0.2~ynh3"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
